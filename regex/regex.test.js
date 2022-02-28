@@ -6,9 +6,7 @@
 characters (no numbers and symbols) and it should end with capital A else return false */
 
 function capitalA(s) {
-    var pattern = new RegExp(
-        "^(?=.*[a-z])(?=.*[A-Z])).+$"
-    );
+    var pattern = new RegExp("^(?=.*[a-z])(?=.*[A-Z])).+$");
 
     // If the string is empty
     // then print No
